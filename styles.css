@@ -3,8 +3,15 @@ body {
     color: #fff;
 }
 
-h1,
-p,
-footer {
+h1,footer {
     color: #fff;
+}
+
+p {
+    color: #fff;
+    text-align: justify;
+}
+
+* {
+    font-family: 'Google Sans Code', sans-serif;
 }
