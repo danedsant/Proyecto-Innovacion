@@ -1,3 +1,22 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 0;
+    text-align:center;
+    z-index: 1000;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+    
+}
+
 .hero-header {
   height:60vh;
   display: flex;
@@ -13,6 +32,7 @@
   background-position: center;
   
 }
+
 .hero-header h1 {
 background-color: rgba(15, 15, 15, 0.5); 
   padding: 10px 15px;
@@ -39,17 +59,37 @@ p {
     font-family: 'Google Sans Code', sans-serif;
 }
 
-span {
+span.header {
   display: inline-block;  
   background: rgba(48, 35, 85, 0.15); /* Efecto Glassmorphism */
   backdrop-filter: blur(5px);           /* Desenfoca lo que hay detrás */
   padding: 10px 19px;
   border-radius: 20px;
   border: 1.5px solid rgba(255,255,255,0.3);
-  display: inline-flex;  
+  display: inline-flex;
   align-items: center;   
   gap: 8px;
   margin-bottom: 10px;
+}
+
+div.botones-header {
+  display: flex;         
+  justify-content: center; 
+  align-items: center;     
+  flex-wrap: wrap;       
+  gap: 15px;             
+  width: 100%;           
+  margin-top: 20px;
+}
+
+
+
+span.eslogan {
+  display:grid;
+  text-align: center;  
+  padding: 15px 15px;
+  border-radius: 2px;
+  background: rgba(184, 171, 219, 0.15); /* Efecto Glassmorphism */
 }
 
 
