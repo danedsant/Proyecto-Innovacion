@@ -15,11 +15,11 @@
 }
 .hero-header h1 {
 background-color: rgba(15, 15, 15, 0.5); 
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 10px 15px;
+  border-radius: 20px;
   color: rgb(217, 221, 255);
   font-size: 5vw;
-backdrop-filter: blur(4px);
+  backdrop-filter: blur(5px);
 }
 body {
     background-color: #181818;
@@ -39,10 +39,17 @@ p {
     font-family: 'Google Sans Code', sans-serif;
 }
 
-.features span {
-  background: rgba(255, 255, 255, 0.15); /* Efecto Glassmorphism */
+span {
+  display: inline-block;  
+  background: rgba(48, 35, 85, 0.15); /* Efecto Glassmorphism */
   backdrop-filter: blur(5px);           /* Desenfoca lo que hay detrás */
-  padding: 8px 16px;
+  padding: 10px 19px;
   border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1.5px solid rgba(255,255,255,0.3);
+  display: inline-flex;  
+  align-items: center;   
+  gap: 8px;
+  margin-bottom: 10px;
 }
+
+
