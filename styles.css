@@ -18,7 +18,7 @@
 }
 
 .hero-header {
-  height:60vh;
+  height:70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,10 +26,11 @@
   color: rgb(255, 255, 255);
   background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, #000000 100%), 
-    url(assets/LibraH.png);
+    url(assets/Libra3.png);
     
-  background-size: cover;
+  background-size: 1700px;
   background-position: center;
+;
   
 }
 
@@ -90,7 +91,11 @@ span.eslogan {
   text-align: center;  
   padding: 15px 15px;
   border-radius: 60px;
-  background-color: rgba(184, 171, 219, 0.15)
+  background-color: rgba(184, 171, 219, 0.15);
+  box-shadow: 
+    0 0 5px #00f2ff,       
+    0 0 15px #00f2ff,      
+    inset 0 0 10px #00f2ff;
 }
 
 .Texto-Intro {
@@ -119,12 +124,20 @@ span.eslogan {
     margin: 0 auto;
     flex-wrap: wrap;
     padding: 20px;
+    
+    
+}
+
+.caracteristicas p {
+    text-align: center;
+    line-height: 1.5;
+    
 }
 
 span.caracteristicas-icon {
     display: flex;
     flex-direction: column;
-    align-items: center;     
+    align-items: center;
 }
 
 
@@ -150,7 +163,6 @@ footer {
   align-items: center; 
   padding: 10px 10px;
   border-radius: 2px;
-
 }
 
 .caracteristicas-final p {
@@ -169,6 +181,10 @@ div.feature-item {
     background-color: rgba(111, 106, 126, 0.15);
     border-radius: 20px;
     padding: 16px;
+    box-shadow: 
+    0 0 5px #00f2ff,       
+    0 0 15px #00f2ff,      
+    inset 0 0 10px #00f2ff;
     
 }
 
@@ -198,6 +214,10 @@ div.feature-item {
     border-radius: 8px;
     overflow: hidden;
     position: relative;
+    box-shadow: 
+    0 0 5px #00f2ff,       
+    0 0 15px #00f2ff,      
+    inset 0 0 10px #00f2ff;
 }
 
 .card-image img {
@@ -229,4 +249,10 @@ div.feature-item {
 
 .card-caption2 {
     text-align: justify;
+}
+
+.contacto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
 }
