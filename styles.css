@@ -171,3 +171,62 @@ div.feature-item {
     padding: 16px;
     
 }
+
+.gallery-section {
+    display:inline-flex;
+    padding: 2px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    
+}
+
+.gallery-title { 
+  text-align: center; 
+  margin-bottom: 10px; 
+  color: #777; }
+
+.grid {
+    display: grid;
+    gap: 25px;
+    max-width: 1000px;
+}
+
+.card-image {
+    height: 250px;
+    background: #111;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.card-image:hover img { opacity: 1; }
+
+.overlay-ui {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(0,0,0,0.7);
+    padding: 4px 12px;
+    border: 1px solid #444;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
+
+.card-caption1 {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.card-caption2 {
+    text-align: justify;
+}
