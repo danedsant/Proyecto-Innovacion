@@ -93,9 +93,9 @@ span.eslogan {
   border-radius: 60px;
   background-color: rgba(184, 171, 219, 0.15);
   box-shadow: 
-    0 0 5px #00f2ff,       
-    0 0 15px #00f2ff,      
-    inset 0 0 10px #00f2ff;
+    0 0 5px #c2d6ff,       
+    0 0 15px #c2d6ff,      
+    inset 0 0 10px #c2d6ff;
 }
 
 .Texto-Intro {
@@ -182,14 +182,14 @@ div.feature-item {
     border-radius: 20px;
     padding: 16px;
     box-shadow: 
-    0 0 5px #00f2ff,       
-    0 0 15px #00f2ff,      
-    inset 0 0 10px #00f2ff;
+    0 0 5px #c2d6ff,       
+    0 0 15px #c2d6ff,      
+    inset 0 0 10px #c2d6ff;
     
 }
 
 .gallery-section {
-    display:inline-flex;
+    display:flex;
     padding: 2px 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -215,9 +215,9 @@ div.feature-item {
     overflow: hidden;
     position: relative;
     box-shadow: 
-    0 0 5px #00f2ff,       
-    0 0 15px #00f2ff,      
-    inset 0 0 10px #00f2ff;
+    0 0 5px #c2d6ff,       
+    0 0 15px #c2d6ff,      
+    inset 0 0 10px #c2d6ff;
 }
 
 .card-image img {
