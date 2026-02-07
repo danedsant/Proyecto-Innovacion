@@ -89,8 +89,8 @@ span.eslogan {
   display:grid;
   text-align: center;  
   padding: 15px 15px;
-  border-radius: 2px;
-  background: rgba(184, 171, 219, 0.15); /* Efecto Glassmorphism */
+  border-radius: 60px;
+  background-color: rgba(184, 171, 219, 0.15)
 }
 
 .Texto-Intro {
@@ -111,6 +111,7 @@ span.eslogan {
 }
 
 .caracteristicas {
+  font-size: 0.9rem;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -123,16 +124,50 @@ span.eslogan {
 span.caracteristicas-icon {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    
+    align-items: center;     
 }
+
+
 .caracteristicas h2 {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 40px;
+}
 
+.caracteristicas-final {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 10px 10px;
+  border-radius: 2px;
 
+}
+
+.caracteristicas-final p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.caracteristicas-final svg {
+  flex-shrink: 0;
+}
+
+div.feature-item {
+    background-color: rgba(111, 106, 126, 0.15);
+    border-radius: 20px;
+    padding: 16px;
+    
+}
